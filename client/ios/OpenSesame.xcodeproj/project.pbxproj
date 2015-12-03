@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400D69B01BED822600C48A98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D69AF1BED822600C48A98 /* Constants.swift */; };
+		400D69B51BED829B00C48A98 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400D69B21BED829B00C48A98 /* Raleway-Light.ttf */; };
+		400D69B61BED829B00C48A98 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400D69B31BED829B00C48A98 /* Raleway-Regular.ttf */; };
+		400D69B71BED829B00C48A98 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400D69B41BED829B00C48A98 /* Raleway-SemiBold.ttf */; };
+		400D69B91BED82ED00C48A98 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D69B81BED82ED00C48A98 /* Global.swift */; };
+		400D69BC1BED833000C48A98 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D69BB1BED833000C48A98 /* UIExtensions.swift */; };
+		4014DBDA1BED4C8B0049C979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014DBD91BED4C8B0049C979 /* AppDelegate.swift */; };
+		4014DBDC1BED4C8B0049C979 /* OpenSesameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014DBDB1BED4C8B0049C979 /* OpenSesameViewController.swift */; };
+		4014DBDF1BED4C8B0049C979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4014DBDD1BED4C8B0049C979 /* Main.storyboard */; };
+		4014DBE11BED4C8B0049C979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4014DBE01BED4C8B0049C979 /* Assets.xcassets */; };
+		4014DBEF1BED4C8B0049C979 /* OpenSesameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014DBEE1BED4C8B0049C979 /* OpenSesameTests.swift */; };
+		4014DBFA1BED4C8B0049C979 /* OpenSesameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014DBF91BED4C8B0049C979 /* OpenSesameUITests.swift */; };
+		E9B5E6C019E4303F6330ED41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054F790A3C147202DB6F4EA7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4014DBEB1BED4C8B0049C979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4014DBCE1BED4C8B0049C979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4014DBD51BED4C8B0049C979;
+			remoteInfo = OpenSesame;
+		};
+		4014DBF61BED4C8B0049C979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4014DBCE1BED4C8B0049C979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4014DBD51BED4C8B0049C979;
+			remoteInfo = OpenSesame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054F790A3C147202DB6F4EA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		400D69AF1BED822600C48A98 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		400D69B21BED829B00C48A98 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		400D69B31BED829B00C48A98 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		400D69B41BED829B00C48A98 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		400D69B81BED82ED00C48A98 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		400D69BB1BED833000C48A98 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		4014DBD61BED4C8B0049C979 /* OpenSesame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSesame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4014DBD91BED4C8B0049C979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4014DBDB1BED4C8B0049C979 /* OpenSesameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSesameViewController.swift; sourceTree = "<group>"; };
+		4014DBDE1BED4C8B0049C979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4014DBE01BED4C8B0049C979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4014DBE51BED4C8B0049C979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4014DBEA1BED4C8B0049C979 /* OpenSesameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSesameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4014DBEE1BED4C8B0049C979 /* OpenSesameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSesameTests.swift; sourceTree = "<group>"; };
+		4014DBF01BED4C8B0049C979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4014DBF51BED4C8B0049C979 /* OpenSesameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSesameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4014DBF91BED4C8B0049C979 /* OpenSesameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSesameUITests.swift; sourceTree = "<group>"; };
+		4014DBFB1BED4C8B0049C979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D252F23F56441D7417512C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF26F7635DDA9DCD3F8D1FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4014DBD31BED4C8B0049C979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B5E6C019E4303F6330ED41 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBE71BED4C8B0049C979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBF21BED4C8B0049C979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400D69AB1BED4D2600C48A98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4014DBDB1BED4C8B0049C979 /* OpenSesameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		400D69AC1BED4D2D00C48A98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		400D69AD1BED4D3F00C48A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400D69BA1BED832300C48A98 /* Extensions */,
+				400D69B11BED828100C48A98 /* Fonts */,
+				400D69AE1BED4D7A00C48A98 /* Resources */,
+				4014DBD91BED4C8B0049C979 /* AppDelegate.swift */,
+				400D69AF1BED822600C48A98 /* Constants.swift */,
+				400D69B81BED82ED00C48A98 /* Global.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		400D69AE1BED4D7A00C48A98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4014DBE01BED4C8B0049C979 /* Assets.xcassets */,
+				4014DBDD1BED4C8B0049C979 /* Main.storyboard */,
+				4014DBE51BED4C8B0049C979 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		400D69B11BED828100C48A98 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				400D69B21BED829B00C48A98 /* Raleway-Light.ttf */,
+				400D69B31BED829B00C48A98 /* Raleway-Regular.ttf */,
+				400D69B41BED829B00C48A98 /* Raleway-SemiBold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		400D69BA1BED832300C48A98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				400D69BB1BED833000C48A98 /* UIExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4014DBCD1BED4C8B0049C979 = {
+			isa = PBXGroup;
+			children = (
+				4014DBD81BED4C8B0049C979 /* OpenSesame */,
+				4014DBED1BED4C8B0049C979 /* OpenSesameTests */,
+				4014DBF81BED4C8B0049C979 /* OpenSesameUITests */,
+				4014DBD71BED4C8B0049C979 /* Products */,
+				83CED5C7B75FE863C1154083 /* Pods */,
+				C6F88AE659C68BD912587FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4014DBD71BED4C8B0049C979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4014DBD61BED4C8B0049C979 /* OpenSesame.app */,
+				4014DBEA1BED4C8B0049C979 /* OpenSesameTests.xctest */,
+				4014DBF51BED4C8B0049C979 /* OpenSesameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4014DBD81BED4C8B0049C979 /* OpenSesame */ = {
+			isa = PBXGroup;
+			children = (
+				400D69AB1BED4D2600C48A98 /* Controllers */,
+				400D69AC1BED4D2D00C48A98 /* Views */,
+				400D69AD1BED4D3F00C48A98 /* Supporting Files */,
+			);
+			path = OpenSesame;
+			sourceTree = "<group>";
+		};
+		4014DBED1BED4C8B0049C979 /* OpenSesameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4014DBEE1BED4C8B0049C979 /* OpenSesameTests.swift */,
+				4014DBF01BED4C8B0049C979 /* Info.plist */,
+			);
+			path = OpenSesameTests;
+			sourceTree = "<group>";
+		};
+		4014DBF81BED4C8B0049C979 /* OpenSesameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4014DBF91BED4C8B0049C979 /* OpenSesameUITests.swift */,
+				4014DBFB1BED4C8B0049C979 /* Info.plist */,
+			);
+			path = OpenSesameUITests;
+			sourceTree = "<group>";
+		};
+		83CED5C7B75FE863C1154083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D252F23F56441D7417512C0 /* Pods.debug.xcconfig */,
+				DFF26F7635DDA9DCD3F8D1FB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6F88AE659C68BD912587FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054F790A3C147202DB6F4EA7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4014DBD51BED4C8B0049C979 /* OpenSesame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4014DBFE1BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesame" */;
+			buildPhases = (
+				B0040585F040F92B629E8333 /* Check Pods Manifest.lock */,
+				4014DBD21BED4C8B0049C979 /* Sources */,
+				4014DBD31BED4C8B0049C979 /* Frameworks */,
+				4014DBD41BED4C8B0049C979 /* Resources */,
+				78CA263BB98B53FF4FE75043 /* Embed Pods Frameworks */,
+				3B6F11C77D2332ECE2626441 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSesame;
+			productName = OpenSesame;
+			productReference = 4014DBD61BED4C8B0049C979 /* OpenSesame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4014DBE91BED4C8B0049C979 /* OpenSesameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4014DC011BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesameTests" */;
+			buildPhases = (
+				4014DBE61BED4C8B0049C979 /* Sources */,
+				4014DBE71BED4C8B0049C979 /* Frameworks */,
+				4014DBE81BED4C8B0049C979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4014DBEC1BED4C8B0049C979 /* PBXTargetDependency */,
+			);
+			name = OpenSesameTests;
+			productName = OpenSesameTests;
+			productReference = 4014DBEA1BED4C8B0049C979 /* OpenSesameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4014DBF41BED4C8B0049C979 /* OpenSesameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4014DC041BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesameUITests" */;
+			buildPhases = (
+				4014DBF11BED4C8B0049C979 /* Sources */,
+				4014DBF21BED4C8B0049C979 /* Frameworks */,
+				4014DBF31BED4C8B0049C979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4014DBF71BED4C8B0049C979 /* PBXTargetDependency */,
+			);
+			name = OpenSesameUITests;
+			productName = OpenSesameUITests;
+			productReference = 4014DBF51BED4C8B0049C979 /* OpenSesameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4014DBCE1BED4C8B0049C979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Thunderchicken Labs, LLC";
+				TargetAttributes = {
+					4014DBD51BED4C8B0049C979 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = M9343M6EJU;
+					};
+					4014DBE91BED4C8B0049C979 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4014DBD51BED4C8B0049C979;
+					};
+					4014DBF41BED4C8B0049C979 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4014DBD51BED4C8B0049C979;
+					};
+				};
+			};
+			buildConfigurationList = 4014DBD11BED4C8B0049C979 /* Build configuration list for PBXProject "OpenSesame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4014DBCD1BED4C8B0049C979;
+			productRefGroup = 4014DBD71BED4C8B0049C979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4014DBD51BED4C8B0049C979 /* OpenSesame */,
+				4014DBE91BED4C8B0049C979 /* OpenSesameTests */,
+				4014DBF41BED4C8B0049C979 /* OpenSesameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4014DBD41BED4C8B0049C979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D69B51BED829B00C48A98 /* Raleway-Light.ttf in Resources */,
+				4014DBE11BED4C8B0049C979 /* Assets.xcassets in Resources */,
+				4014DBDF1BED4C8B0049C979 /* Main.storyboard in Resources */,
+				400D69B61BED829B00C48A98 /* Raleway-Regular.ttf in Resources */,
+				400D69B71BED829B00C48A98 /* Raleway-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBE81BED4C8B0049C979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBF31BED4C8B0049C979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B6F11C77D2332ECE2626441 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CA263BB98B53FF4FE75043 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0040585F040F92B629E8333 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4014DBD21BED4C8B0049C979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D69B91BED82ED00C48A98 /* Global.swift in Sources */,
+				4014DBDC1BED4C8B0049C979 /* OpenSesameViewController.swift in Sources */,
+				4014DBDA1BED4C8B0049C979 /* AppDelegate.swift in Sources */,
+				400D69BC1BED833000C48A98 /* UIExtensions.swift in Sources */,
+				400D69B01BED822600C48A98 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBE61BED4C8B0049C979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4014DBEF1BED4C8B0049C979 /* OpenSesameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4014DBF11BED4C8B0049C979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4014DBFA1BED4C8B0049C979 /* OpenSesameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4014DBEC1BED4C8B0049C979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4014DBD51BED4C8B0049C979 /* OpenSesame */;
+			targetProxy = 4014DBEB1BED4C8B0049C979 /* PBXContainerItemProxy */;
+		};
+		4014DBF71BED4C8B0049C979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4014DBD51BED4C8B0049C979 /* OpenSesame */;
+			targetProxy = 4014DBF61BED4C8B0049C979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4014DBDD1BED4C8B0049C979 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4014DBDE1BED4C8B0049C979 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4014DBFC1BED4C8B0049C979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4014DBFD1BED4C8B0049C979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4014DBFF1BED4C8B0049C979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D252F23F56441D7417512C0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OpenSesame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4014DC001BED4C8B0049C979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF26F7635DDA9DCD3F8D1FB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OpenSesame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4014DC021BED4C8B0049C979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSesameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSesame.app/OpenSesame";
+			};
+			name = Debug;
+		};
+		4014DC031BED4C8B0049C979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSesameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSesame.app/OpenSesame";
+			};
+			name = Release;
+		};
+		4014DC051BED4C8B0049C979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSesameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSesame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4014DC061BED4C8B0049C979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSesameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunderchickenlabs.OpenSesameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSesame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4014DBD11BED4C8B0049C979 /* Build configuration list for PBXProject "OpenSesame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4014DBFC1BED4C8B0049C979 /* Debug */,
+				4014DBFD1BED4C8B0049C979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4014DBFE1BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4014DBFF1BED4C8B0049C979 /* Debug */,
+				4014DC001BED4C8B0049C979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4014DC011BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4014DC021BED4C8B0049C979 /* Debug */,
+				4014DC031BED4C8B0049C979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4014DC041BED4C8B0049C979 /* Build configuration list for PBXNativeTarget "OpenSesameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4014DC051BED4C8B0049C979 /* Debug */,
+				4014DC061BED4C8B0049C979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4014DBCE1BED4C8B0049C979 /* Project object */;
+}
